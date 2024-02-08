@@ -21,7 +21,7 @@ form.addEventListener('submit', (event) => {
             
             loader.classList.add('is-hidden');
         })
-        .catch((error) => console.log(error))
+        .catch((error) => console.log(error));
     
     event.target.reset();
 })
